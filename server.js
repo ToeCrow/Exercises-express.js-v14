@@ -44,7 +44,6 @@ app.post('/api/add', (req, res) => {
   };
 
   courses.push(newCourse);
-
   res.json(courses);
 })
 
